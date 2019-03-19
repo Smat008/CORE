@@ -1,0 +1,133 @@
+
+.navbar .navbar-brand {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1rem;
+}
+
+/* .offset:before {
+    margin: 57px 0 0;
+  } */
+
+.jumbotron {
+    background-image: url('background.jpg');
+    background-size: contain;
+}
+
+.cross {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 17px;
+}
+
+.about,
+.containerInstructors,
+.classes {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info, .classPic {
+    margin: 0 20px 20px 20px;
+}
+
+.classPic {
+    height: 224px;
+    width: 225px;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    
+    text-align: center;
+    }
+
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+
+.container:hover .image {
+    opacity: 0.3;
+    }
+
+.container:hover .middle {
+    opacity: 0.5;
+    }
+
+.text {
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    }
+
+.dayButton {
+    padding: 2px;
+    margin: 5px;
+    width: 30%;
+    height: 50px;
+    border-radius: 12px;
+    background-color: white;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.dayButton:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.classes {
+    margin: 10px;
+}
+
+.footerCore {
+    background-color: black;
+}
+
+.footerText {
+    margin: 10px;
+    padding-top: 10px;
+}
+
+
+@media (min-width: 850px) {
+
+    .about,
+    .classes {
+        flex-direction: row;
+    }
+
+    .containerInstructors {
+        flex-direction: row;
+    }
+
+    .classes {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .dayButton {
+        Width: 200px;
+        Margin: auto;
+    }
+
+
+
+
+
+
+}
