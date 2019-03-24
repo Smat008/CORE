@@ -1,4 +1,4 @@
-
+/* Navigation Bar and Jumbotron */
 .navbar .navbar-brand {
     color: white;
     font-size: 1rem;
@@ -19,6 +19,7 @@
     margin-bottom: 17px;
 }
 
+/* Main body content */
 .about,
 .containerInstructors,
 .classes {
@@ -36,6 +37,7 @@
     width: 225px;
 }
 
+/* Instructor image and hover feature */
 .container {
     position: relative;
 }
@@ -74,6 +76,7 @@
     padding: 16px 32px;
     }
 
+/* Class Schedules buttons */
 .dayButton {
     padding: 2px;
     margin: 5px;
@@ -94,6 +97,7 @@
     margin: 10px;
 }
 
+/* Footer */
 .footerCore {
     background-color: black;
 }
@@ -103,7 +107,7 @@
     padding-top: 10px;
 }
 
-
+/* Media Query */
 @media (min-width: 850px) {
 
     .about,
